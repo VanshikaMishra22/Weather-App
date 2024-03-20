@@ -1,3 +1,7 @@
+// hello
+//helksl
+
+
 const inputBox = document.querySelector(' .input-box');
 const searchBtn = document.getElementById('searchBtn');
 const weather_img = document.querySelector('.weather-img');
