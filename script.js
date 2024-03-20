@@ -1,5 +1,4 @@
-// hello
-//helksl
+
 
 
 const inputBox = document.querySelector(' .input-box');

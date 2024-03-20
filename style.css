@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 body{
@@ -12,16 +12,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(149, 103, 103);
+    background-color: #000;
 }
 
 .container{
     width: 400px;
     height: min-content;
-    background-color: burlywood;
+    background-color: #fff;
     border-radius: 12px;
     padding: 28px;
-
 }
 
 .search-box{
@@ -36,51 +35,52 @@ body{
     width: 84%;
     font-size: 20px;
     text-transform: capitalize;
-    color:cadetblue;
+    color: #000;
+    background-color: #e6f5fb;
     padding: 12px 16px;
     border-radius: 14px;
 }
 
 .search-box input::placeholder{
-
-    color:rgb(22, 21, 11);
+    color: #000;
 }
 
 .search-box button{
     width: 46px;
     height: 46px;
-    background-color: darksalmon;
+    background-color: #e6f5fb;
     border-radius: 50%;
     cursor: pointer;
-    front-size: 20px;
+    font-size: 20px;
 }
 
 .search-box button:hover{
-    color:lightsalmon;
-    background-color:blanchedalmond;
+    color: #fff;
+    background-color: #ababab;
 }
-.weather-body {
-    display: flex;
-    justify-content: none;
+
+.weather-body{
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-block: 20px;
+    display: none;
 }
-.weather-img{
-    width: 40;
+.weather-body img{
+    width: 60%;
+}
 
-}
 .weather-box{
     margin-block: 20px;
-    text-align: center ;
+    text-align: center;
 }
 
 .weather-box .temperature{
     font-size: 40px;
     font-weight: 800;
     position: relative;
-
 }
+
 .weather-box .temperature sup{
     font-size: 20px;
     position: absolute;
@@ -96,7 +96,7 @@ body{
 .weather-details{
     width: 100%;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     margin-top: 30px;
 }
 
@@ -107,8 +107,8 @@ body{
 
 .humidity{
     margin-left: 20px;
-
 }
+
 .wind{
     margin-right: 20px;
 }
@@ -126,6 +126,7 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+
 .location-not-found{
     margin-top: 20px;
     display: none;
@@ -141,6 +142,4 @@ body{
 }
 .location-not-found img{
     width: 80%;
-
 }
-   
